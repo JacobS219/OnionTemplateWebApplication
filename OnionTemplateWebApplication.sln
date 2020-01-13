@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnionTemplateWebApplication", "OnionTemplateWebApplication\OnionTemplateWebApplication.csproj", "{00D45684-46F0-4FAB-98D1-616A6DB68DED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "config", "config", "{1E002675-554E-4C61-B6FA-220A691E0D8E}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnionTemplateUnitTests", "OnionTemplateUnitTests\OnionTemplateUnitTests.csproj", "{076F23B1-63F4-45F4-83ED-7FA701EAF579}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{00D45684-46F0-4FAB-98D1-616A6DB68DED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00D45684-46F0-4FAB-98D1-616A6DB68DED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00D45684-46F0-4FAB-98D1-616A6DB68DED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00D45684-46F0-4FAB-98D1-616A6DB68DED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{076F23B1-63F4-45F4-83ED-7FA701EAF579}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{076F23B1-63F4-45F4-83ED-7FA701EAF579}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{076F23B1-63F4-45F4-83ED-7FA701EAF579}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{076F23B1-63F4-45F4-83ED-7FA701EAF579}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B363B2B4-7644-4BCE-AC72-935D3D1E10BC}
+	EndGlobalSection
+EndGlobal
